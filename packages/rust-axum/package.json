@@ -1,0 +1,8 @@
+{
+  "name": "rust-actix-web",
+  "version": "1.0.0",
+  "scripts": {
+    "prebenchmark": "cargo build -r",
+    "benchmark": "concurrently \"./target/release/web-server\" \"k6 run --summary-export=../../results/rust-actix-web.json ../../script.js > results.log\" -k -s 'first'"
+  }
+}

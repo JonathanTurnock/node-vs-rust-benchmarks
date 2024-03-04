@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-fastify",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "benchmark": "concurrently \"node .\" \"k6 run --summary-export=../../results/node-fastify.json ../../script.js > results.log\" -k -s 'first'"
+  },
+  "dependencies": {
+    "fastify": "^4.26.1"
+  }
+}

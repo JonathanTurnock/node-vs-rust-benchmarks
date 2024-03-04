@@ -1,0 +1,8 @@
+{
+  "name": "go",
+  "version": "1.0.0",
+  "scripts": {
+    "prebenchmark": "go build",
+    "benchmark": "concurrently \"./main\" \"k6 run --summary-export=../../results/go.json ../../script.js > results.log\" -k -s 'first'"
+  }
+}
