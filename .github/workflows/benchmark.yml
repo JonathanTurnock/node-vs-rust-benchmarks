@@ -1,5 +1,7 @@
 name: Benchmark Workflow
 
+on: push
+
 jobs:
   build-and-benchmark:
     runs-on: ubuntu-latest
