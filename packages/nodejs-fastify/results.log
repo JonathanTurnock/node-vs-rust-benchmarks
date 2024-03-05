@@ -20,55 +20,55 @@ running (02.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
 delayed_start • [   0% ] waiting  1.0s
 
 running (03.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
-delayed_start   [   0% ] started
+delayed_start • [   0% ] waiting  0.0s
 
-running (04.0s), 10/10 VUs, 31419 complete and 0 interrupted iterations
+running (04.0s), 10/10 VUs, 5317 complete and 0 interrupted iterations
 delayed_start   [  10% ] 10 VUs  01.0s/10s
 
-running (05.0s), 10/10 VUs, 76818 complete and 0 interrupted iterations
+running (05.0s), 10/10 VUs, 13252 complete and 0 interrupted iterations
 delayed_start   [  20% ] 10 VUs  02.0s/10s
 
-running (06.0s), 10/10 VUs, 117502 complete and 0 interrupted iterations
+running (06.0s), 10/10 VUs, 22310 complete and 0 interrupted iterations
 delayed_start   [  30% ] 10 VUs  03.0s/10s
 
-running (07.0s), 10/10 VUs, 156706 complete and 0 interrupted iterations
+running (07.0s), 10/10 VUs, 30629 complete and 0 interrupted iterations
 delayed_start   [  40% ] 10 VUs  04.0s/10s
 
-running (08.0s), 10/10 VUs, 196751 complete and 0 interrupted iterations
+running (08.0s), 10/10 VUs, 39113 complete and 0 interrupted iterations
 delayed_start   [  50% ] 10 VUs  05.0s/10s
 
-running (09.0s), 10/10 VUs, 240621 complete and 0 interrupted iterations
+running (09.0s), 10/10 VUs, 47081 complete and 0 interrupted iterations
 delayed_start   [  60% ] 10 VUs  06.0s/10s
 
-running (10.0s), 10/10 VUs, 286619 complete and 0 interrupted iterations
+running (10.0s), 10/10 VUs, 54084 complete and 0 interrupted iterations
 delayed_start   [  70% ] 10 VUs  07.0s/10s
 
-running (11.0s), 10/10 VUs, 328075 complete and 0 interrupted iterations
+running (11.0s), 10/10 VUs, 62444 complete and 0 interrupted iterations
 delayed_start   [  80% ] 10 VUs  08.0s/10s
 
-running (12.0s), 10/10 VUs, 376106 complete and 0 interrupted iterations
+running (12.0s), 10/10 VUs, 71460 complete and 0 interrupted iterations
 delayed_start   [  90% ] 10 VUs  09.0s/10s
 
-running (13.0s), 10/10 VUs, 422426 complete and 0 interrupted iterations
+running (13.0s), 10/10 VUs, 79362 complete and 0 interrupted iterations
 delayed_start   [ 100% ] 10 VUs  10.0s/10s
 
-     data_received..................: 297 MB 23 MB/s
-     data_sent......................: 34 MB  2.6 MB/s
-     http_req_blocked...............: avg=558ns    min=0s      med=0s      max=1.11ms  p(90)=1µs      p(95)=1µs     
-     http_req_connecting............: avg=21ns     min=0s      med=0s      max=1.04ms  p(90)=0s       p(95)=0s      
-     http_req_duration..............: avg=222.53µs min=32µs    med=170µs   max=13.83ms p(90)=345µs    p(95)=434µs   
-       { expected_response:true }...: avg=222.53µs min=32µs    med=170µs   max=13.83ms p(90)=345µs    p(95)=434µs   
-     http_req_failed................: 0.00%  ✓ 0            ✗ 422484
-     http_req_receiving.............: avg=6.91µs   min=3µs     med=5µs     max=7.61ms  p(90)=9µs      p(95)=12µs    
-     http_req_sending...............: avg=2.2µs    min=1µs     med=1µs     max=8.27ms  p(90)=3µs      p(95)=5µs     
-     http_req_tls_handshaking.......: avg=0s       min=0s      med=0s      max=0s      p(90)=0s       p(95)=0s      
-     http_req_waiting...............: avg=213.4µs  min=25µs    med=162µs   max=13.77ms p(90)=336µs    p(95)=421µs   
-     http_reqs......................: 422484 32495.482188/s
-     iteration_duration.............: avg=234.08µs min=42.12µs med=180.5µs max=15.16ms p(90)=357.75µs p(95)=450.65µs
-     iterations.....................: 422484 32495.482188/s
-     vus............................: 10     min=0          max=10  
-     vus_max........................: 10     min=10         max=10  
+     data_received..................: 56 MB  4.3 MB/s
+     data_sent......................: 6.4 MB 489 kB/s
+     http_req_blocked...............: avg=2.69µs  min=641ns    med=1.7µs    max=7.12ms   p(90)=2.01µs  p(95)=2.22µs 
+     http_req_connecting............: avg=60ns    min=0s       med=0s       max=864.95µs p(90)=0s      p(95)=0s     
+     http_req_duration..............: avg=1.19ms  min=127.13µs med=910.21µs max=26.44ms  p(90)=2.2ms   p(95)=2.8ms  
+       { expected_response:true }...: avg=1.19ms  min=127.13µs med=910.21µs max=26.44ms  p(90)=2.2ms   p(95)=2.8ms  
+     http_req_failed................: 0.00%  ✓ 0           ✗ 79386
+     http_req_receiving.............: avg=48.43µs min=10.44µs  med=19.32µs  max=19.27ms  p(90)=27.31µs p(95)=39.54µs
+     http_req_sending...............: avg=12.33µs min=3.03µs   med=7.34µs   max=16.32ms  p(90)=8.49µs  p(95)=9.39µs 
+     http_req_tls_handshaking.......: avg=0s      min=0s       med=0s       max=0s       p(90)=0s      p(95)=0s     
+     http_req_waiting...............: avg=1.13ms  min=98µs     med=875.27µs max=26.21ms  p(90)=2.11ms  p(95)=2.63ms 
+     http_reqs......................: 79386  6106.156274/s
+     iteration_duration.............: avg=1.24ms  min=162.72µs med=951.36µs max=26.76ms  p(90)=2.27ms  p(95)=2.91ms 
+     iterations.....................: 79386  6106.156274/s
+     vus............................: 10     min=0         max=10 
+     vus_max........................: 10     min=10        max=10 
 
 
-running (13.0s), 00/10 VUs, 422484 complete and 0 interrupted iterations
+running (13.0s), 00/10 VUs, 79386 complete and 0 interrupted iterations
 delayed_start ✓ [ 100% ] 10 VUs  10s
